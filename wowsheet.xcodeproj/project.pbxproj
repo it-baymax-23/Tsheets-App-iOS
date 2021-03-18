@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0002EAF622D849AA003899D3 /* attachments.png in Resources */ = {isa = PBXBuildFile; fileRef = 0002EAF522D849A9003899D3 /* attachments.png */; };
+		00047D3B22DBE30300307D6E /* TimeCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00047D3A22DBE30300307D6E /* TimeCardTableViewCell.swift */; };
+		000789A422D23E550077DFFE /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000789A322D23E550077DFFE /* AdminLoginViewController.swift */; };
+		000789A622D23F760077DFFE /* EmployeeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000789A522D23F760077DFFE /* EmployeeLoginViewController.swift */; };
+		000789A822D241120077DFFE /* AdminRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000789A722D241120077DFFE /* AdminRegisterViewController.swift */; };
+		0040641222D43748005470F6 /* AdminMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040641122D43748005470F6 /* AdminMainViewController.swift */; };
+		0040641622D43BCB005470F6 /* AdminTimeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040641522D43BCA005470F6 /* AdminTimeCardViewController.swift */; };
+		0040641822D43C49005470F6 /* AdminOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040641722D43C49005470F6 /* AdminOverviewViewController.swift */; };
+		007E2D8B22D8592A003E876E /* AttachmentImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E2D8A22D8592A003E876E /* AttachmentImageCollectionViewCell.swift */; };
+		008724B322CFE5D800578630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008724B222CFE5D800578630 /* AppDelegate.swift */; };
+		008724B522CFE5D800578630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008724B422CFE5D800578630 /* ViewController.swift */; };
+		008724B822CFE5D800578630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008724B622CFE5D800578630 /* Main.storyboard */; };
+		008724BA22CFE5D800578630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008724B922CFE5D800578630 /* Assets.xcassets */; };
+		008724BD22CFE5D800578630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008724BB22CFE5D800578630 /* LaunchScreen.storyboard */; };
+		008724C822CFE5D800578630 /* wowsheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008724C722CFE5D800578630 /* wowsheetTests.swift */; };
+		008724D322CFE5D800578630 /* wowsheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008724D222CFE5D800578630 /* wowsheetUITests.swift */; };
+		009100E622DE63A800B521C8 /* TimeSheetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009100E522DE63A800B521C8 /* TimeSheetDetailViewController.swift */; };
+		009100E822DF0ECA00B521C8 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009100E722DF0ECA00B521C8 /* CircularProgressBar.swift */; };
+		009A71DA22DAF14A00D46C18 /* JobSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A71D922DAF14A00D46C18 /* JobSwitchViewController.swift */; };
+		00AC54C622E0104A0001A8E0 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AC54C522E0104A0001A8E0 /* ScheduleTableViewCell.swift */; };
+		00AC54C822E027900001A8E0 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AC54C722E027900001A8E0 /* AddScheduleViewController.swift */; };
+		00ADFE0722E03B3100AA0D0E /* add-job.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ADFE0222E03B2F00AA0D0E /* add-job.png */; };
+		00ADFE0822E03B3100AA0D0E /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ADFE0322E03B2F00AA0D0E /* location.png */; };
+		00ADFE0922E03B3100AA0D0E /* assigned.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ADFE0422E03B2F00AA0D0E /* assigned.png */; };
+		00ADFE0A22E03B3100AA0D0E /* add-notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ADFE0522E03B3000AA0D0E /* add-notes.png */; };
+		00ADFE0B22E03B3100AA0D0E /* all-day.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ADFE0622E03B3000AA0D0E /* all-day.png */; };
+		00ADFE0D22E0675700AA0D0E /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADFE0C22E0675700AA0D0E /* DatePickerDialog.swift */; };
+		00ADFE0F22E08A2400AA0D0E /* SelectJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADFE0E22E08A2400AA0D0E /* SelectJobViewController.swift */; };
+		00ADFE1122E0E30800AA0D0E /* SelectJobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADFE1022E0E30800AA0D0E /* SelectJobTableViewCell.swift */; };
+		00ADFE1322E172BC00AA0D0E /* AddNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADFE1222E172BC00AA0D0E /* AddNotesViewController.swift */; };
+		00C41D7C22D4C4EA004BCD22 /* TimesheetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C41D7B22D4C4EA004BCD22 /* TimesheetsViewController.swift */; };
+		00C41D7E22D4C542004BCD22 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C41D7D22D4C542004BCD22 /* ScheduleViewController.swift */; };
+		00C41D8022D4C586004BCD22 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C41D7F22D4C586004BCD22 /* MoreViewController.swift */; };
+		00C41D8222D4EDF4004BCD22 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C41D8122D4EDF4004BCD22 /* ProfileViewController.swift */; };
+		00EDB22B22D7999E005C2073 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EDB22322D7999B005C2073 /* more.png */; };
+		00EDB22C22D7999E005C2073 /* overview.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EDB22422D7999C005C2073 /* overview.png */; };
+		00EDB22D22D7999E005C2073 /* schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EDB22522D7999C005C2073 /* schedule.png */; };
+		00EDB22E22D7999E005C2073 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EDB22622D7999C005C2073 /* Group.png */; };
+		00EDB22F22D7999E005C2073 /* Group (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 00EDB22722D7999D005C2073 /* Group (1).png */; };
+		00EDB23022D7999E005C2073 /* Component.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EDB22822D7999D005C2073 /* Component.png */; };
+		00EDB23122D7999E005C2073 /* timecard.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EDB22922D7999D005C2073 /* timecard.png */; };
+		00EDB23222D7999E005C2073 /* timesheets.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EDB22A22D7999E005C2073 /* timesheets.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008724C422CFE5D800578630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008724A722CFE5D700578630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008724AE22CFE5D800578630;
+			remoteInfo = wowsheet;
+		};
+		008724CF22CFE5D800578630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008724A722CFE5D700578630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008724AE22CFE5D800578630;
+			remoteInfo = wowsheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0002EAF522D849A9003899D3 /* attachments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = attachments.png; path = image/attachments.png; sourceTree = SOURCE_ROOT; };
+		00047D3A22DBE30300307D6E /* TimeCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCardTableViewCell.swift; sourceTree = "<group>"; };
+		000789A322D23E550077DFFE /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
+		000789A522D23F760077DFFE /* EmployeeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLoginViewController.swift; sourceTree = "<group>"; };
+		000789A722D241120077DFFE /* AdminRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRegisterViewController.swift; sourceTree = "<group>"; };
+		0040641122D43748005470F6 /* AdminMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AdminMainViewController.swift; path = ../AdminMainViewController.swift; sourceTree = "<group>"; };
+		0040641522D43BCA005470F6 /* AdminTimeCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTimeCardViewController.swift; sourceTree = "<group>"; };
+		0040641722D43C49005470F6 /* AdminOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AdminOverviewViewController.swift; path = ../AdminOverviewViewController.swift; sourceTree = "<group>"; };
+		007E2D8A22D8592A003E876E /* AttachmentImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		008724AF22CFE5D800578630 /* wowsheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wowsheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008724B222CFE5D800578630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		008724B422CFE5D800578630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		008724B722CFE5D800578630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		008724B922CFE5D800578630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		008724BC22CFE5D800578630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		008724BE22CFE5D800578630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008724C322CFE5D800578630 /* wowsheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wowsheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		008724C722CFE5D800578630 /* wowsheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wowsheetTests.swift; sourceTree = "<group>"; };
+		008724C922CFE5D800578630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008724CE22CFE5D800578630 /* wowsheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wowsheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		008724D222CFE5D800578630 /* wowsheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wowsheetUITests.swift; sourceTree = "<group>"; };
+		008724D422CFE5D800578630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009100E522DE63A800B521C8 /* TimeSheetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetDetailViewController.swift; sourceTree = "<group>"; };
+		009100E722DF0ECA00B521C8 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		009A71D922DAF14A00D46C18 /* JobSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSwitchViewController.swift; sourceTree = "<group>"; };
+		00AC54C522E0104A0001A8E0 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		00AC54C722E027900001A8E0 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		00ADFE0222E03B2F00AA0D0E /* add-job.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-job.png"; path = "../../../../Downloads/add-job.png"; sourceTree = "<group>"; };
+		00ADFE0322E03B2F00AA0D0E /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = ../../../../Downloads/location.png; sourceTree = "<group>"; };
+		00ADFE0422E03B2F00AA0D0E /* assigned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = assigned.png; path = ../../../../Downloads/assigned.png; sourceTree = "<group>"; };
+		00ADFE0522E03B3000AA0D0E /* add-notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-notes.png"; path = "../../../../Downloads/add-notes.png"; sourceTree = "<group>"; };
+		00ADFE0622E03B3000AA0D0E /* all-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "all-day.png"; path = "../../../../Downloads/all-day.png"; sourceTree = "<group>"; };
+		00ADFE0C22E0675700AA0D0E /* DatePickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		00ADFE0E22E08A2400AA0D0E /* SelectJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectJobViewController.swift; sourceTree = "<group>"; };
+		00ADFE1022E0E30800AA0D0E /* SelectJobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectJobTableViewCell.swift; sourceTree = "<group>"; };
+		00ADFE1222E172BC00AA0D0E /* AddNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotesViewController.swift; sourceTree = "<group>"; };
+		00C41D7B22D4C4EA004BCD22 /* TimesheetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesheetsViewController.swift; sourceTree = "<group>"; };
+		00C41D7D22D4C542004BCD22 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		00C41D7F22D4C586004BCD22 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		00C41D8122D4EDF4004BCD22 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		00EDB22322D7999B005C2073 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = image/more.png; sourceTree = SOURCE_ROOT; };
+		00EDB22422D7999C005C2073 /* overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overview.png; path = image/overview.png; sourceTree = SOURCE_ROOT; };
+		00EDB22522D7999C005C2073 /* schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = schedule.png; path = image/schedule.png; sourceTree = SOURCE_ROOT; };
+		00EDB22622D7999C005C2073 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = image/Group.png; sourceTree = SOURCE_ROOT; };
+		00EDB22722D7999D005C2073 /* Group (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group (1).png"; path = "image/Group (1).png"; sourceTree = SOURCE_ROOT; };
+		00EDB22822D7999D005C2073 /* Component.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Component.png; path = image/Component.png; sourceTree = SOURCE_ROOT; };
+		00EDB22922D7999D005C2073 /* timecard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timecard.png; path = image/timecard.png; sourceTree = SOURCE_ROOT; };
+		00EDB22A22D7999E005C2073 /* timesheets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timesheets.png; path = image/timesheets.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008724AC22CFE5D800578630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008724C022CFE5D800578630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008724CB22CFE5D800578630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008724A622CFE5D700578630 = {
+			isa = PBXGroup;
+			children = (
+				008724B122CFE5D800578630 /* wowsheet */,
+				008724C622CFE5D800578630 /* wowsheetTests */,
+				008724D122CFE5D800578630 /* wowsheetUITests */,
+				008724B022CFE5D800578630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008724B022CFE5D800578630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008724AF22CFE5D800578630 /* wowsheet.app */,
+				008724C322CFE5D800578630 /* wowsheetTests.xctest */,
+				008724CE22CFE5D800578630 /* wowsheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008724B122CFE5D800578630 /* wowsheet */ = {
+			isa = PBXGroup;
+			children = (
+				00ADFE0222E03B2F00AA0D0E /* add-job.png */,
+				00ADFE0522E03B3000AA0D0E /* add-notes.png */,
+				00ADFE0622E03B3000AA0D0E /* all-day.png */,
+				00ADFE0422E03B2F00AA0D0E /* assigned.png */,
+				00ADFE0322E03B2F00AA0D0E /* location.png */,
+				0002EAF522D849A9003899D3 /* attachments.png */,
+				00EDB22822D7999D005C2073 /* Component.png */,
+				00EDB22722D7999D005C2073 /* Group (1).png */,
+				00EDB22622D7999C005C2073 /* Group.png */,
+				00EDB22322D7999B005C2073 /* more.png */,
+				00EDB22422D7999C005C2073 /* overview.png */,
+				00EDB22522D7999C005C2073 /* schedule.png */,
+				00EDB22922D7999D005C2073 /* timecard.png */,
+				00EDB22A22D7999E005C2073 /* timesheets.png */,
+				008724B222CFE5D800578630 /* AppDelegate.swift */,
+				008724B422CFE5D800578630 /* ViewController.swift */,
+				000789A322D23E550077DFFE /* AdminLoginViewController.swift */,
+				00ADFE0C22E0675700AA0D0E /* DatePickerDialog.swift */,
+				009100E722DF0ECA00B521C8 /* CircularProgressBar.swift */,
+				00C41D8122D4EDF4004BCD22 /* ProfileViewController.swift */,
+				008724B622CFE5D800578630 /* Main.storyboard */,
+				0040641722D43C49005470F6 /* AdminOverviewViewController.swift */,
+				0040641522D43BCA005470F6 /* AdminTimeCardViewController.swift */,
+				009A71D922DAF14A00D46C18 /* JobSwitchViewController.swift */,
+				00C41D7B22D4C4EA004BCD22 /* TimesheetsViewController.swift */,
+				00047D3A22DBE30300307D6E /* TimeCardTableViewCell.swift */,
+				009100E522DE63A800B521C8 /* TimeSheetDetailViewController.swift */,
+				00C41D7D22D4C542004BCD22 /* ScheduleViewController.swift */,
+				00AC54C522E0104A0001A8E0 /* ScheduleTableViewCell.swift */,
+				00AC54C722E027900001A8E0 /* AddScheduleViewController.swift */,
+				00ADFE0E22E08A2400AA0D0E /* SelectJobViewController.swift */,
+				00ADFE1022E0E30800AA0D0E /* SelectJobTableViewCell.swift */,
+				00ADFE1222E172BC00AA0D0E /* AddNotesViewController.swift */,
+				00C41D7F22D4C586004BCD22 /* MoreViewController.swift */,
+				000789A722D241120077DFFE /* AdminRegisterViewController.swift */,
+				000789A522D23F760077DFFE /* EmployeeLoginViewController.swift */,
+				0040641122D43748005470F6 /* AdminMainViewController.swift */,
+				008724B922CFE5D800578630 /* Assets.xcassets */,
+				008724BB22CFE5D800578630 /* LaunchScreen.storyboard */,
+				008724BE22CFE5D800578630 /* Info.plist */,
+				007E2D8A22D8592A003E876E /* AttachmentImageCollectionViewCell.swift */,
+			);
+			path = wowsheet;
+			sourceTree = "<group>";
+		};
+		008724C622CFE5D800578630 /* wowsheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				008724C722CFE5D800578630 /* wowsheetTests.swift */,
+				008724C922CFE5D800578630 /* Info.plist */,
+			);
+			path = wowsheetTests;
+			sourceTree = "<group>";
+		};
+		008724D122CFE5D800578630 /* wowsheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				008724D222CFE5D800578630 /* wowsheetUITests.swift */,
+				008724D422CFE5D800578630 /* Info.plist */,
+			);
+			path = wowsheetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008724AE22CFE5D800578630 /* wowsheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008724D722CFE5D800578630 /* Build configuration list for PBXNativeTarget "wowsheet" */;
+			buildPhases = (
+				008724AB22CFE5D800578630 /* Sources */,
+				008724AC22CFE5D800578630 /* Frameworks */,
+				008724AD22CFE5D800578630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wowsheet;
+			productName = wowsheet;
+			productReference = 008724AF22CFE5D800578630 /* wowsheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008724C222CFE5D800578630 /* wowsheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008724DA22CFE5D800578630 /* Build configuration list for PBXNativeTarget "wowsheetTests" */;
+			buildPhases = (
+				008724BF22CFE5D800578630 /* Sources */,
+				008724C022CFE5D800578630 /* Frameworks */,
+				008724C122CFE5D800578630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008724C522CFE5D800578630 /* PBXTargetDependency */,
+			);
+			name = wowsheetTests;
+			productName = wowsheetTests;
+			productReference = 008724C322CFE5D800578630 /* wowsheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		008724CD22CFE5D800578630 /* wowsheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008724DD22CFE5D800578630 /* Build configuration list for PBXNativeTarget "wowsheetUITests" */;
+			buildPhases = (
+				008724CA22CFE5D800578630 /* Sources */,
+				008724CB22CFE5D800578630 /* Frameworks */,
+				008724CC22CFE5D800578630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008724D022CFE5D800578630 /* PBXTargetDependency */,
+			);
+			name = wowsheetUITests;
+			productName = wowsheetUITests;
+			productReference = 008724CE22CFE5D800578630 /* wowsheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008724A722CFE5D700578630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = AAA;
+				TargetAttributes = {
+					008724AE22CFE5D800578630 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					008724C222CFE5D800578630 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 008724AE22CFE5D800578630;
+					};
+					008724CD22CFE5D800578630 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 008724AE22CFE5D800578630;
+					};
+				};
+			};
+			buildConfigurationList = 008724AA22CFE5D700578630 /* Build configuration list for PBXProject "wowsheet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008724A622CFE5D700578630;
+			productRefGroup = 008724B022CFE5D800578630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008724AE22CFE5D800578630 /* wowsheet */,
+				008724C222CFE5D800578630 /* wowsheetTests */,
+				008724CD22CFE5D800578630 /* wowsheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008724AD22CFE5D800578630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EDB22E22D7999E005C2073 /* Group.png in Resources */,
+				00EDB23022D7999E005C2073 /* Component.png in Resources */,
+				00EDB22C22D7999E005C2073 /* overview.png in Resources */,
+				008724BD22CFE5D800578630 /* LaunchScreen.storyboard in Resources */,
+				00ADFE0822E03B3100AA0D0E /* location.png in Resources */,
+				008724BA22CFE5D800578630 /* Assets.xcassets in Resources */,
+				00EDB22B22D7999E005C2073 /* more.png in Resources */,
+				00ADFE0722E03B3100AA0D0E /* add-job.png in Resources */,
+				00ADFE0B22E03B3100AA0D0E /* all-day.png in Resources */,
+				0002EAF622D849AA003899D3 /* attachments.png in Resources */,
+				00EDB22D22D7999E005C2073 /* schedule.png in Resources */,
+				00EDB23222D7999E005C2073 /* timesheets.png in Resources */,
+				008724B822CFE5D800578630 /* Main.storyboard in Resources */,
+				00ADFE0922E03B3100AA0D0E /* assigned.png in Resources */,
+				00EDB23122D7999E005C2073 /* timecard.png in Resources */,
+				00EDB22F22D7999E005C2073 /* Group (1).png in Resources */,
+				00ADFE0A22E03B3100AA0D0E /* add-notes.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008724C122CFE5D800578630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008724CC22CFE5D800578630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008724AB22CFE5D800578630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ADFE1322E172BC00AA0D0E /* AddNotesViewController.swift in Sources */,
+				009A71DA22DAF14A00D46C18 /* JobSwitchViewController.swift in Sources */,
+				000789A622D23F760077DFFE /* EmployeeLoginViewController.swift in Sources */,
+				0040641822D43C49005470F6 /* AdminOverviewViewController.swift in Sources */,
+				0040641222D43748005470F6 /* AdminMainViewController.swift in Sources */,
+				000789A422D23E550077DFFE /* AdminLoginViewController.swift in Sources */,
+				00ADFE0F22E08A2400AA0D0E /* SelectJobViewController.swift in Sources */,
+				00C41D8022D4C586004BCD22 /* MoreViewController.swift in Sources */,
+				008724B522CFE5D800578630 /* ViewController.swift in Sources */,
+				00C41D8222D4EDF4004BCD22 /* ProfileViewController.swift in Sources */,
+				00AC54C622E0104A0001A8E0 /* ScheduleTableViewCell.swift in Sources */,
+				00ADFE0D22E0675700AA0D0E /* DatePickerDialog.swift in Sources */,
+				009100E622DE63A800B521C8 /* TimeSheetDetailViewController.swift in Sources */,
+				00C41D7E22D4C542004BCD22 /* ScheduleViewController.swift in Sources */,
+				00ADFE1122E0E30800AA0D0E /* SelectJobTableViewCell.swift in Sources */,
+				000789A822D241120077DFFE /* AdminRegisterViewController.swift in Sources */,
+				008724B322CFE5D800578630 /* AppDelegate.swift in Sources */,
+				009100E822DF0ECA00B521C8 /* CircularProgressBar.swift in Sources */,
+				0040641622D43BCB005470F6 /* AdminTimeCardViewController.swift in Sources */,
+				00C41D7C22D4C4EA004BCD22 /* TimesheetsViewController.swift in Sources */,
+				00047D3B22DBE30300307D6E /* TimeCardTableViewCell.swift in Sources */,
+				00AC54C822E027900001A8E0 /* AddScheduleViewController.swift in Sources */,
+				007E2D8B22D8592A003E876E /* AttachmentImageCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008724BF22CFE5D800578630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008724C822CFE5D800578630 /* wowsheetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008724CA22CFE5D800578630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008724D322CFE5D800578630 /* wowsheetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008724C522CFE5D800578630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008724AE22CFE5D800578630 /* wowsheet */;
+			targetProxy = 008724C422CFE5D800578630 /* PBXContainerItemProxy */;
+		};
+		008724D022CFE5D800578630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008724AE22CFE5D800578630 /* wowsheet */;
+			targetProxy = 008724CF22CFE5D800578630 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		008724B622CFE5D800578630 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008724B722CFE5D800578630 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		008724BB22CFE5D800578630 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008724BC22CFE5D800578630 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		008724D522CFE5D800578630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008724D622CFE5D800578630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008724D822CFE5D800578630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wowsheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.wowsheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		008724D922CFE5D800578630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wowsheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.wowsheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		008724DB22CFE5D800578630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wowsheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.wowsheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wowsheet.app/wowsheet";
+			};
+			name = Debug;
+		};
+		008724DC22CFE5D800578630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wowsheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.wowsheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wowsheet.app/wowsheet";
+			};
+			name = Release;
+		};
+		008724DE22CFE5D800578630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wowsheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.wowsheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wowsheet;
+			};
+			name = Debug;
+		};
+		008724DF22CFE5D800578630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wowsheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.wowsheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wowsheet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008724AA22CFE5D700578630 /* Build configuration list for PBXProject "wowsheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008724D522CFE5D800578630 /* Debug */,
+				008724D622CFE5D800578630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008724D722CFE5D800578630 /* Build configuration list for PBXNativeTarget "wowsheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008724D822CFE5D800578630 /* Debug */,
+				008724D922CFE5D800578630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008724DA22CFE5D800578630 /* Build configuration list for PBXNativeTarget "wowsheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008724DB22CFE5D800578630 /* Debug */,
+				008724DC22CFE5D800578630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008724DD22CFE5D800578630 /* Build configuration list for PBXNativeTarget "wowsheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008724DE22CFE5D800578630 /* Debug */,
+				008724DF22CFE5D800578630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008724A722CFE5D700578630 /* Project object */;
+}
